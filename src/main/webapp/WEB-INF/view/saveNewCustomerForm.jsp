@@ -41,24 +41,40 @@
 
 			<!-- Add hidden form field to handle update -->
 			<input type="hidden" name="id" value="${Customer.id}" />
+			
+			<div class="form-inline">
+
+				<label for="firstName">First Name</label>
+
+			</div>
 
 			<div class="form-inline">
 				<input type="text" name="firstName" value="${Customer.firstName}"
-					class="form-control mb-4 col-4" placeholder="FristName">
+					class="form-control mb-4 col-4" placeholder="Enter FristName">
+
+			</div>
+			<div class="form-inline">
+
+				<label for="firstName">Last Name</label>
 
 			</div>
 
 			<div class="form-inline">
 
 				<input type="text" name="lastName" value="${Customer.lastName}"
-					class="form-control mb-4 col-4" placeholder="LastName">
+					class="form-control mb-4 col-4" placeholder="Enter LastName">
+
+			</div>
+			<div class="form-inline">
+
+				<label for="firstName">Email ID</label>
 
 			</div>
 
 			<div class="form-inline">
 
 				<input type="text" name="email" value="${Customer.email}"
-					class="form-control mb-4 col-4" placeholder="Email Id">
+					class="form-control mb-4 col-4" placeholder="Enter Email Id">
 
 			</div>
 
